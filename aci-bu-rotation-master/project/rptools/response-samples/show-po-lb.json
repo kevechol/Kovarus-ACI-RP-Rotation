@@ -1,0 +1,32 @@
+{
+    "ins_api": {
+        "type": "cli_show",
+        "version": "1.0",
+        "sid": "eoc",
+        "outputs": {
+            "output": {
+                "body": {
+                    "non-ip-val": [
+                        "source-dest-mac",
+                        "source-dest-mac"
+                    ],
+                    "non-ip-sel": [
+                        "mac",
+                        "mac"
+                    ],
+                    "ipv4-val": [
+                        "source-dest-mac",
+                        "source-dest-mac"
+                    ],
+                    "ipv4-sel": [
+                        "ip",
+                        "ip"
+                    ]
+                },
+                "input": "show port-channel load-balance",
+                "msg": "Success",
+                "code": "200"
+            }
+        }
+    }
+}

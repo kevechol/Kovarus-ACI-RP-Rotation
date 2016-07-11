@@ -1,0 +1,29 @@
+---
+
+- name: testing interface and vlan configuration using nxapi modules 
+  hosts: switches
+  connection: local
+  gather_facts: no
+
+  tasks:
+
+  - name: configure VLANs
+    nxapi_vlan:
+      device={{ inventory_hostname }}
+      vlan_id=100
+      name=Cisco_100
+      state=present
+      vlan_state=suspend
+      shut_state=shutdown
+      username=admin
+      password=cisco123
+
+  - name: configure interface(s)
+    nxapi_interface:
+      interface=Ethernet1/40
+      device={{ inventory_hostname }} 
+      description="Configured by Ansible on Eth1/40 for {{ inventory_hostname }}"
+      config_state=configured
+      admin_state=shutdown
+      username=admin
+      password=cisco123

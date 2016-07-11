@@ -1,0 +1,32 @@
+{
+    "ins_api": {
+        "type": "cli_show",
+        "version": "1.2",
+        "sid": "eoc",
+        "outputs": {
+            "output": {
+                "body": {
+                    "TABLE_mac_address": {
+                        "ROW_mac_address": {
+                            "disp_mac_addr": "0050.568c.7c36",
+                            "disp_vdc": "1",
+                            "disp_vlan": "14",
+                            "disp_is_static": "0",
+                            "disp_is_secure": "Disabled",
+                            "disp_is_ntfy": "Disabled",
+                            "disp_age": "300",
+                            "disp_port": "port-channel50",
+                            "disp_type": "Primary_entry",
+                            "disp_swid": "2750",
+                            "disp_sswid": "0",
+                            "disp_lid": "37"
+                        }
+                    }
+                },
+                "input": "show mac address-table address 0050.568c.7c36",
+                "msg": "Success",
+                "code": "200"
+            }
+        }
+    }
+}

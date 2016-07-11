@@ -1,0 +1,12 @@
+{% for interface in interfaces %}
+interface {{ interface.LocalPort }}
+{%- if ',' in interface.VLAN %}
+  description {{ interface.Description }}
+  switchport mode trunk
+  switchport trunk allowed vlan {{ interface.VLAN }}
+{%- else %}
+  description {{ interface.Description }}
+  switchport mode access
+  switchport access vlan {{ interface.VLAN }}
+{%- endif %}
+{%- endfor %}

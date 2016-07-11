@@ -1,0 +1,24 @@
+{
+    "ins_api": {
+        "type": "cli_show",
+        "version": "1.2",
+        "sid": "eoc",
+        "outputs": {
+            "output": {
+                "body": {
+                    "TABLE_vrf": {
+                        "ROW_vrf": {
+                            "vrf_name": "blarg",
+                            "vrf_id": "6",
+                            "vrf_state": "Up",
+                            "vrf_reason": "--"
+                        }
+                    }
+                },
+                "input": "show vrf blarg",
+                "msg": "Success",
+                "code": "200"
+            }
+        }
+    }
+}

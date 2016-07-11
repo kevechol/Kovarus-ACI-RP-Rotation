@@ -1,0 +1,22 @@
+{
+  "ins_api": {
+    "type": "cli_show",
+    "version": "1.2",
+    "sid": "eoc",
+    "outputs": {
+      "output": {
+        "input": "show port-channel load-balance forwarding-path interface po1 src-ip 10.1.32.11 dst-ip 10.1.32.45",
+        "msg": "Success",
+        "code": "200",
+        "body": {
+          "loadbalance-algorithm": {
+            "algorithm": "Load-balance Algorithm on switch: source-dest-ip\n"
+          },
+          "outgoing-port-id": {
+            "port": "Ethernet1/18"
+          }
+        }
+      }
+    }
+  }
+}

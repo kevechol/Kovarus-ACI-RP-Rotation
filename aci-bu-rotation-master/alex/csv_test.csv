@@ -1,0 +1,41 @@
+LocalPort,Device,DestPort,Purpose,VLAN
+Eth1/1,CAHT-ITHOST-P01,Eth1,Server Uplink,"115,117-120,202"
+Eth1/2,CAHT-ITHOST-P02,Eth1,Server Uplink,"115,117-120,202"
+Eth1/3,CAHT-ITHOST-P03,Eth1,Server Uplink,"115,117-120,202"
+Eth1/4,,,,
+Eth1/5,,,,
+Eth1/6,,,,
+Eth1/7,CAHT-ITISLN-P01,10gige-2,Storage Uplink (Po101/vPC101),116
+Eth1/8,CAHT-ITISLN-P02,10gige-2,Storage Uplink (Po102/vPC102),116
+Eth1/9,CAHT-ITISLN-P03,10gige-2,Storage Uplink (Po103/vPC103),116
+Eth1/10,CAHT-ITISLN-P04,10gige-2,Storage Uplink (Po104/vPC104),116
+Eth1/11,CAHT-ITISLN-P05,10gige-2,Storage Uplink (Po105/vPC105),116
+Eth1/12,CAHT-ITISLN-P06,10gige-2,Storage Uplink (Po106/vPC106),116
+Eth1/13,CAHT-ITISLN-P07,10gige-2,Storage Uplink (Po107/vPC107),116
+Eth1/14,CAHT-ITISLN-P08,10gige-2,Storage Uplink (Po108/vPC108),116
+Eth1/15,CAHT-ITISLN-P09,10gige-2,Storage Uplink (Po109/vPC109),116
+Eth1/16,,,,
+Eth1/17,,,,
+Eth1/18,,,,
+Eth1/19,,,,
+Eth1/20,,,,
+Eth1/21,CAHT-EDNGS-P01,Eth1,Server Uplink (Po201/vPC201),"116,119"
+Eth1/22,CAHT-EDNGS-P02,Eth1,Server Uplink (Po202/vPC202),"116,119"
+Eth1/23,CAHT-EDNGS-P03,Eth1,Server Uplink (Po203/vPC203),"116,119"
+Eth1/24,CAHT-EDNGS-P04,Eth1,Server Uplink (Po204/vPC204),"116,119"
+Eth1/25,CAHT-EDNGS-P05,Eth1,Server Uplink (Po205/vPC205),"116,119"
+Eth1/26,CAHT-EDNGS-P06,Eth1,Server Uplink (Po206/vPC206),"116,119"
+Eth1/27,CAHT-EDNGS-P07,Eth1,Server Uplink (Po207/vPC207),"116,119"
+Eth1/28,CAHT-EDNGS-P08,Eth1,Server Uplink (Po208/vPC208),"116,119"
+Eth1/29,CAHT-EDNGS-P09,Eth1,Server Uplink (Po209/vPC209),"116,119"
+Eth1/30,CAHT-EDNGS-P10,Eth1,Server Uplink (Po210/vPC210),"116,119"
+Eth1/31,CAHT-EDNGS-P11,Eth1,Server Uplink (Po211/vPC211),"116,119"
+Eth1/32,CAHT-EDNGS-P12,Eth1,Server Uplink (Po212/vPC212),"116,119"
+Eth1/33,CAHT-EDNGS-P13,Eth1,Server Uplink (Po213/vPC213),"116,119"
+Eth1/34,CAHT-EDNGS-P14,Eth1,Server Uplink (Po214/vPC214),"116,119"
+Eth1/35,CAHT-EDNGS-P15,Eth1,Server Uplink (Po215/vPC215),"116,119"
+Eth1/36,CAHT-EDNGS-P16,Eth1,Server Uplink (Po216/vPC216),"116,119"
+Eth1/37,CAHT-EDNGS-P17,Eth1,Server Uplink (Po217/vPC217),"116,119"
+Eth1/38,CAHT-EDNGS-P18,Eth1,Server Uplink (Po218/vPC218),"116,119"
+Eth1/39,CAHT-EDNGS-P19,Eth1,Server Uplink (Po219/vPC219),"116,119"
+Eth1/40,CAHT-EDNGS-P20,Eth1,Server Uplink (Po220/vPC220),"116,119"
